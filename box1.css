@@ -1,0 +1,99 @@
+.box {
+    max-width: 550px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .box-left {
+    margin-right: 30px;
+    position: relative;
+  }
+  
+  .box-image {
+    max-width: 150px;
+    display: block;
+  }
+  
+  .box-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    border-radius: 5px;
+  }
+  
+  .box-left:hover .box-button {
+    opacity: 1;
+    place-content: center;
+  }
+  
+  .box-right {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .box-title {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .box-subtitle {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #999;
+    margin-bottom: 20px;
+  }
+  
+  .box-text {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    color: #f4480b;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .box-offer {
+    text-align: center;
+  }
+  
+  .box-offer-button {
+    background-color: #f4480b;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+  }
+  
+  .box-offer-button:hover {
+    background-color: #fff;
+    color: #f4480b;
+    border: 1px solid #f4480b;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .box-divider {
+    border-left: 1px solid #f4480b;
+    height: 80%;
+    margin: 30px 0;
+    flex: 0 0 auto;
+  }
+  
+  
